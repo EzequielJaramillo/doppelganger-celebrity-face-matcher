@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archivos comprimidos
+*.zip
+*.bz2
+*.tar
+*.gz
+*.7z
+
+# Modelos pesados
+*.dat
+
+# Datasets descargados (se regeneran desde el notebook)
+celeb_mini/
+test-images/
+celeb_mapping.npy
+celeb_embeddings.npy
+celeb_embeddings.pkl
